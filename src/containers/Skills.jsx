@@ -40,20 +40,16 @@ const Skills = () => {
             My Skills and Work Experience</p>
   <p className="text-texlight 
   text-base tracking-wide text-justify">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-Sapiente dolores qui cum, sunt natus nemo animi perferendis, esse modi voluptas quis quaerat placeat atque architecto numquam. Aut odio ut ad.
+
+Over the past three years, I've delved into full stack development, mastering HTML, CSS, and Tailwind CSS for crafting visually appealing and responsive user interfaces. My proficiency extends to JavaScript, React JS, and Redux for dynamic front-end applications, coupled with back-end expertise in MongoDB, MySQL, Node JS, and Express JS for robust server-side architectures.
   </p>
   <p className="text-texlight 
   text-base tracking-wide text-justify">
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam obcaecati molestias mollitia in quis ducimus, 
-vel repellat odio natus! Minus iusto autem optio! Voluptate non, provident impedit mollitia reiciendis et.
+Active involvement in college technical clubs has shaped my skills through hands-on projects, enhancing my problem-solving abilities and applying intermediate data structures and algorithms knowledge. This practical experience emphasizes the importance of clean and maintainable code in delivering high-quality software solutions.
   </p>
   <p className="text-texlight 
   text-base tracking-wide text-justify">
-Lorem ipsum dolor, sit amet consectetur adipisicing elit.
- Fugit similique distinctio dolore impedit dolorem obcaecati. 
- Eveniet minus voluptates accusantium.
- Dolorum dolores sequi ipsam ipsa qui debitis quidem hic cupiditate quo?
+A notable aspect of my college journey involves expertise in Javascript,I have also worked in mobile app development using Kotlin for creating efficient and user-friendly Android applications. This cross-platform development experience enriches my versatility as a full stack developer, reflecting my commitment to excellence and passion for innovation in the dynamic realm of technology.
 
   </p>
 
