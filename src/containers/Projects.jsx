@@ -18,7 +18,7 @@ const Projects = () => {
        transition={{delay: 0.4}} 
       
       
-      className="w-full flex items-center flec-col gap-12 my-12">
+      className="flex items-center justify-around w-52">
           <img src={Leaf1} className="w-6 h-auto object-contain " alt=""/>
           <p className="text-transparent 
           bg-clip-text  bg-gradient-to-r 
@@ -45,7 +45,7 @@ const ProjectCard = ({project})=>{
 const [isHoverred,setIsHoverred] = useState(false);
   return (
     <motion.div key={project.id} className="overflow-hidden cursor-pointer relative 
-    rounde-md"
+    rounded-md"
     onMouseEnter={()=> setIsHoverred(true)}
     onMouseLeave={()=> setIsHoverred(false)}>
       <motion.img 
@@ -55,7 +55,7 @@ const [isHoverred,setIsHoverred] = useState(false);
 
           {isHoverred && (
       <motion.div className="absolute inset-0 
-      backdrop-blur-md flex items-center justify-center
+      backdrop-blur-md bg-[rgba(0,0,0,0.6)] flex items-center justify-center
       flex-col gap-2 ">
     <p className="text-xl text-primary">{project?.name}</p>
      <a href={project?.gitURL} className="">
