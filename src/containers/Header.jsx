@@ -8,7 +8,7 @@ const Header = () => {
 
     <div className="px-4 py-4 lg:py-12 rounded-full border-full border border-[
       rgba(255,255,255,0.3)] flex flex-row lg:flex-col items-center
-      justify-center gap-12 duration-200 backdrop-blur-md">
+      justify-center gap-6 duration-200 backdrop-blur-md">
 
         {Menus && 
         Menus.map((item, index)=>(
